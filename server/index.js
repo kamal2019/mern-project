@@ -11,7 +11,7 @@ app.use('/students',studentRoutes);
 app.use(bodyParser.json({limit:"20mb",extended:true}));
 app.use(bodyParser.urlencoded({limit:"20mb",extended:true}));
 
-app.use(cors());
+// app.use(cors());
 // const PORT  = process.env.PORT
 
 const CONNECTION_URL = 'mongodb+srv://kamalaryal:<1b2c3d4f>@cluster0.sjnb9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
